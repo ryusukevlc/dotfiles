@@ -70,3 +70,4 @@ nnoremap <C-w> :quit<CR>
 nnoremap <C-h> :tabprev<CR>
 nnoremap <C-l> :tabnext<CR>
 " ヤンクでクリップボードに貼り付ける → vscodeの場合はsettings.jsonで設定 → "vim.usesystemclipboard": true, 
+nnoremap <CR> i<Return><Esc>^k
