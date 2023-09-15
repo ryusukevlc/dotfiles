@@ -18,6 +18,11 @@ noremap <S-h> 0
 noremap <S-l> $ 
 "Leaderキー（今はスペースキー）+ . で.vimrcを開く
 nnoremap <Leader>. :new ~/.vimrc<CR>
+nnoremap <C-w> :quit<CR>
+nnoremap <C-h> :tabprev<CR>
+nnoremap <C-l> :tabnext<CR>
+" ヤンクでクリップボードに貼り付ける → vscodeの場合はsettings.jsonで設定 → "vim.usesystemclipboard": true, 
+nnoremap <CR> i<Return><Esc>^k
 
 
 "カーソルの形状設定
