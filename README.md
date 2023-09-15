@@ -1,3 +1,3 @@
-# my-dot-files
+# dotfiles
 
 Intellij IDEA →　vim + VSCode keymap plugin
