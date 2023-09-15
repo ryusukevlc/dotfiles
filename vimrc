@@ -15,7 +15,7 @@ inoremap <silent> jj <ESC>
 "shift+h で行の先頭に移動
 noremap <S-h> 0
 "shift+l で行の末尾に移動
-noremap <S-l> $ 
+noremap <S-l> $
 "Leaderキー（今はスペースキー）+ . で.vimrcを開く
 nnoremap <Leader>. :new ~/.vimrc<CR>
 nnoremap <C-w> :quit<CR>
