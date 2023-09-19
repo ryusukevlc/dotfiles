@@ -25,6 +25,20 @@ nnoremap <C-l> :tabnext<CR>
 " ヤンクでクリップボードに貼り付ける → vscodeの場合はsettings.jsonで設定 → "vim.usesystemclipboard": true, 
 nnoremap <CR> i<Return><Esc>^k
 
+" ペイン分割
+
+" 左右分割
+nnoremap sv <C-w>v
+" 上下分割
+nnoremap ss <C-w>s
+" 左ペインに移動
+nnoremap sh <C-w>h
+" 右ペインに移動
+nnoremap sl <C-w>l
+" 上ペインに移動
+nnoremap sk <C-w>k
+" 下ペインに移動
+nnoremap sj <C-w>j
 
 "カーソルの形状設定
 if has('vim_starting')
