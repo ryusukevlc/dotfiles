@@ -8,6 +8,8 @@ set wildmenu "ステータスラインに補完候補を表示する
 set clipboard+=unnamed "クリップボードとやんく、プットが連携される
 " 検索時の大文字小文字を区別しない
 set ignorecase
+" ビープ音を消す
+set belloff=all
 
 
 "キーマップ
