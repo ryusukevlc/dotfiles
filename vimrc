@@ -58,3 +58,14 @@ augroup update_markdown_syntax
   autocmd BufNew,BufEnter * if &filetype == 'markdown' | syntax match markdownError '\w\@<=\w\@=' | endif
 augroup END
 
+
+" WSL clipboard（WSLでヤンクテキストをクリップボードにも共有する）
+"if !empty($WSL_DISTRO_NAME)
+"  let s:clip = '/mnt/c/Windows/System32/clip.exe'
+"  if executable(s:clip)
+"    augroup WSLYank
+"      autocmd!
+"      autocmd TextYankPost * if v:event.operator ==# 'y' | call system(s:clip, @0) | endif
+"    augroup END
+"  endif
+"endif
