@@ -59,7 +59,7 @@ augroup update_markdown_syntax
 augroup END
 
 
-" WSL clipboard（WSLでヤンクテキストをクリップボードにも共有する）
+" WSL clipboard（WSLでヤンクしたテキストをクリップボードにも共有する）
 "if !empty($WSL_DISTRO_NAME)
 "  let s:clip = '/mnt/c/Windows/System32/clip.exe'
 "  if executable(s:clip)
